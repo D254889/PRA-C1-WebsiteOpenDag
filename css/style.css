@@ -1,78 +1,78 @@
 html{
-    scroll-behavior:  smooth;
-    margin: 0 auto;
-    width: 70%;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  scroll-behavior:  smooth;
+  margin: 0 auto;
+  width: 70%;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .zoekmenu {
-  border-bottom: solid 0.5px black;
-  padding: 1%;
+border-bottom: solid 0.5px black;
+padding: 1%;
 }
 .zoekmenu a{
-  padding: 0.2%;
-  margin: 1%;
-  text-decoration: none;
-  color: black;
+padding: 0.2%;
+margin: 1%;
+text-decoration: none;
+color: black;
 }
 .headertekst
 {
-  display: flex;
-  border-bottom: solid 0.5px black;
-  margin: 0 auto;
-  margin-top: 1%;
-  flex-direction: row;
-  width: 80%;
-  font-size: 120%;
+display: flex;
+border-bottom: solid 0.5px black;
+margin: 0 auto;
+margin-top: 1%;
+flex-direction: row;
+width: 80%;
+font-size: 120%;
 }
 footer{
-  border-top: solid 0.5px black;
+border-top: solid 0.5px black;
 }
 
 .intro{
-  width: 70%;
-  margin: 1% auto;
-  margin-bottom: 0px;
-  padding: 1%;
+width: 70%;
+margin: 1% auto;
+margin-bottom: 0px;
+padding: 1%;
 }
 
 .intro h3{
-  font-weight:bold;
+font-weight:bold;
 }
 
 .intro p{
-  margin: 0% auto;
+margin: 0% auto;
 }
 
 
 .intro h4{
-  margin-bottom: 0px;
-  margin: 0 auto;
+margin-bottom: 0px;
+margin: 0 auto;
 }
 
 body footer{
-  margin-top: 34%; 
+margin-top: 34%; 
 }
 
 .wrapper {
-  width: 950px;
+width: 950px;
 }
 
 .parent li{
-  font-weight:bold;
+font-weight:bold;
 }
 
 .parent {
-  display: flex;
+display: flex;
 }
 
 .div{
-  padding-bottom: 18%;
-  border-bottom: solid 0.5px black;
+padding-bottom: 18%;
+border-bottom: solid 0.5px black;
 }
 
 .div3{
-  border: solid 0.5px black;
+border: solid 0.5px black;
 }
 
 .rooster p{
@@ -83,25 +83,46 @@ padding-bottom: 5%;
 border-bottom: solid 0.5px black;
 }
 .vakanties p{
-  text-align: center;
-  }
+text-align: center;
+}
 .vakanties img{
-  border-bottom: solid 0.5px black;
-  }
+border-bottom: solid 0.5px black;
+}
 
 .intro{
-  border-bottom: solid 0.5px black;
+border-bottom: solid 0.5px black;
 }
 .versneldtekst{
 padding-bottom: 5%;
 border-bottom: solid 0.5px black;
 }
 .docenttekst{
-  text-align: center;
+text-align: center;
 }
 
 .huiswerk{
-  padding-bottom: 5%;
-  border-bottom: solid 0.5px black;
-  flex: end;
+padding-bottom: 5%;
+border-bottom: solid 0.5px black;
+flex: end;
 }
+
+
+.parentfoto {
+text-align: center;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.divbart { grid-area: 1 / 3 / 2 / 4; }
+.div4 { grid-area: 2 / 1 / 3 / 2; }
+.div5 { grid-area: 2 / 2 / 3 / 3; }
+.div6 { grid-area: 2 / 3 / 3 / 4; }
+.div7 { grid-area: 3 / 1 / 4 / 2; }
+.div8 { grid-area: 3 / 2 / 4 / 3; }
+.div9 { grid-area: 3 / 3 / 4 / 4; }
+
