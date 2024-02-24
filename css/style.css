@@ -71,6 +71,10 @@ body footer{
   border-bottom: solid 0.5px black;
 }
 
+.div3{
+  border: solid 0.5px black;
+}
+
 .rooster p{
 text-align: center;
 }
@@ -96,3 +100,8 @@ border-bottom: solid 0.5px black;
   text-align: center;
 }
 
+.huiswerk{
+  padding-bottom: 5%;
+  border-bottom: solid 0.5px black;
+  flex: end;
+}
