@@ -73,7 +73,6 @@ body footer{
 
 .rooster p{
 text-align: center;
-font-weight: bold;
 }
 .rooster img{
 padding-bottom: 5%;
@@ -81,7 +80,6 @@ border-bottom: solid 0.5px black;
 }
 .vakanties p{
   text-align: center;
-  font-weight: bold;
   }
 .vakanties img{
   border-bottom: solid 0.5px black;
@@ -93,5 +91,8 @@ border-bottom: solid 0.5px black;
 .versneldtekst{
 padding-bottom: 5%;
 border-bottom: solid 0.5px black;
+}
+.docenttekst{
+  text-align: center;
 }
 
