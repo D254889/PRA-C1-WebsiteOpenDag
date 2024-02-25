@@ -3,11 +3,13 @@ html{
   margin: 0 auto;
   width: 70%;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(216, 233, 248);
 }
 
 .zoekmenu {
-border-bottom: solid 0.5px black;
+border: solid 0.5px black;
 padding: 1%;
+background-color: #62beff ;
 }
 .zoekmenu a{
 padding: 0.2%;
@@ -24,6 +26,7 @@ margin-top: 1%;
 flex-direction: row;
 width: 80%;
 font-size: 120%;
+background-image: url("img/Curio-Terheijdenseweg.jpg");
 }
 footer{
 border-top: solid 0.5px black;
@@ -34,6 +37,10 @@ width: 70%;
 margin: 1% auto;
 margin-bottom: 0px;
 padding: 1%;
+background-color: rgb(60, 171, 250,0.3);
+border-style: solid;
+border-radius: 10%;
+border-color: #c0d3fd;
 }
 
 .intro h3{
@@ -53,6 +60,7 @@ margin: 0 auto;
 body footer{
 margin-top: 34%; 
 }
+
 
 .wrapper {
 width: 950px;
@@ -89,9 +97,6 @@ text-align: center;
 border-bottom: solid 0.5px black;
 }
 
-.intro{
-border-bottom: solid 0.5px black;
-}
 .versneldtekst{
 padding-bottom: 5%;
 border-bottom: solid 0.5px black;
@@ -114,6 +119,10 @@ grid-template-columns: repeat(3, 1fr);
 grid-template-rows: repeat(3, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
+padding-bottom: 5%;
+border-bottom: solid 0.5px black;
+background-color: rgba(129, 193, 239, 0.5);
+border-radius: 10%;
 }
 
 .div1 { grid-area: 1 / 1 / 2 / 2; }
